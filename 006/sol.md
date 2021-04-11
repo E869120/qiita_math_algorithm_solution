@@ -1,6 +1,7 @@
 # 演習問題 6
 1 xor 2 xor 3 xor ... xor N を求めるプログラムを書いてください。
 ただし、時間計算量 O(N) かけても良いですが、O(1) で解けるアルゴリズムも存在します。
+
 <br />
 
 # 演習問題 6 の解答＜O(N) 解法＞
@@ -16,7 +17,7 @@ xor の定義については [2-5. 節](https://qiita.com/e869120/items/b4a0493a
 * 7 xor 7 = 0
 * 以下略
 
-といった感じで、左から順に計算していけば良いです。詳しくは[サンプルコード]()をご覧ください。
+といった感じで、左から順に計算していけば良いです。なお、a xor b の値は C++ の場合「a^b」で計算できます。詳しくは[サンプルコード](https://github.com/E869120/qiita_math_algorithm_solution/blob/main/006/code1.cpp)をご覧ください。
 
 <br />
 
@@ -40,4 +41,4 @@ xor の定義については [2-5. 節](https://qiita.com/e869120/items/b4a0493a
 | N が 4 で割って 2 余る整数 | (N-2) xor (N-1) xor N |
 | N が 4 で割って 3 余る整数 | 0 |
 
-詳しくは[サンプルコード]()をご覧ください。
+詳しくは[サンプルコード](https://github.com/E869120/qiita_math_algorithm_solution/blob/main/006/code2.cpp)をご覧ください。
